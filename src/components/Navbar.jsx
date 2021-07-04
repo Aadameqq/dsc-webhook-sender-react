@@ -23,7 +23,6 @@ export const Navbar = () => {
 
   useEffect(() => {
     if (screenWidth < 800 && isNavbarItemsVisible !== null) {
-      console.log(1);
       isNavbarItemsVisible && inputRef.current.click();
       setNavbarItemsVisibility(null);
     }
